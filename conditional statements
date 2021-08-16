@@ -1,0 +1,34 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+int n;
+char grade=0;
+printf("enter ypur marks:\t");
+scanf("%d",&n);
+if(n<40)
+{
+	printf("grade F");
+}
+else if(n>=40 && n<54) 
+{
+   printf("grade D");
+}
+else if(n>=55 && n<69)
+{
+   	printf("grade C");
+}
+else if(n>=70 && n<84)
+{
+   printf("grade B");
+}
+else if(n>=85 && n<100)
+{
+   printf("grade A");
+}
+else
+{
+	printf("\n\n you have enterd a wrong value!");
+}
+ return(0);
+}
